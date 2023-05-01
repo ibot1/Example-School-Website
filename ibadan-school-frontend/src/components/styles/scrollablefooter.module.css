@@ -1,0 +1,187 @@
+.footer {
+    height: 27em;
+    background-color: #005b80;
+}
+
+.footer div {
+    display: inline-block;
+    font-family: sans-serif;
+    color: #daa520;
+}
+
+.block1 {
+    border-right-width: thin;
+    border-right-style: solid;
+    margin-top: 2%;
+    height: 17.4em;
+    width: 30em;
+}
+
+.block1 img:hover {
+    cursor: pointer;
+}
+
+.block2 {
+    position: absolute;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    top: 317%;
+    left: 33%;
+    height: 5em;
+    width: 38em;
+}
+
+.block2 div:hover {
+    color: #ffc0cb;
+    cursor: pointer;
+}
+
+.block3 {
+    position: absolute;
+    top: 333%;
+    left: 33%;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    height: 4em;
+    width: 38em;
+}
+
+.block4 {
+    position: absolute;
+    top: 350%;
+    left: 40%;
+    font-size: 0.9em;
+}
+
+.block4 a {
+    color: #daa520;
+}
+
+.block4 a:hover {
+    color: #ffc0cb;
+}
+
+.block5 {
+    position: absolute;
+    top: 317%;
+    left: 82%;
+    font-size: 3em;
+    width: 3em;
+    height: 3em;
+    border-left-width: thin;
+    border-left-style: solid;
+    padding-left: 0.7%;
+}
+
+.schoolLogo {
+    position: absolute;
+    top: 317%;
+    left: 2%;
+}
+
+.schoolName {
+    position: absolute;
+    top: 337%;
+    left: 2%;
+    font-size: 1.07em;
+    font-weight: bold;
+    color: #daa520;
+    width: 20.4em;
+    padding-bottom: 0.3%;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+}
+
+.address1 {
+    position: absolute;
+    top: 342%;
+    left: 2%;
+    font-size: 0.9em;
+}
+
+.viewMap {
+    position: absolute;
+    top: 342%;
+    left: 19.1%;
+    font-size: 0.9em;
+}
+
+.viewMap:hover {
+    color: #ffc0cb;
+    cursor: pointer;
+}
+
+.address2 {
+    position: absolute;
+    top: 345%;
+    left: 2%;
+    font-size: 0.9em;
+}
+
+.phoneNumber {
+    position: absolute;
+    top: 345%;
+    left: 18%;
+    font-size: 0.9em;
+}
+
+.phoneNumber:hover {
+    color: #ffc0cb;
+    cursor: pointer;
+}
+
+.emergency {
+    position: absolute;
+    top: 24%;
+    left: -0.1%;
+    font-size: 1.2em;
+    border-width: 0.13em;
+    border-style: solid;
+    padding: 1%;
+}
+
+.contact {
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    font-size: 1.3em;
+    padding: 1%;
+}
+
+.press {
+    position: absolute;
+    top: 26%;
+    left: 54%;
+    font-size: 1.3em;
+    padding: 1%;
+}
+
+.careers {
+    position: absolute;
+    top: 26%;
+    left: 75%;
+    font-size: 1.3em;
+    padding: 1%;
+}
+
+.followUs {
+    position: absolute;
+    font-size: 1em;
+    top: 10%;
+    left: 1%;
+}
+
+.followUs span:hover {
+    color: #ffc0cb;
+    cursor: pointer;
+}
+
+.motto {
+    position: absolute;
+    margin-top: -7%;
+}
+
+.motto:hover {
+    color: #ffc0cb;
+    cursor: pointer;
+}
