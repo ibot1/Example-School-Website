@@ -27,17 +27,22 @@
     font-family: sans-serif;
 }
 
+.header1 a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header1 a:hover {
+    color: #ffff00;
+    cursor: pointer;
+}
+
 .header1last {
     position: relative;
     top: 27%;
     font-size: 0.9em;
     font-family: sans-serif;
     padding-right: 2em;
-}
-
-.header1 span:hover {
-    color: #ffff00;
-    cursor: pointer;
 }
 
 .header1 img {
@@ -58,16 +63,18 @@
     text-align: left;
 }
 
-.header2 span {
+.header2 * {
     position: relative;
     top: 37%;
     font-size: 1.0625em;
     font-family: sans-serif;
     margin-left: 3.3em;
     margin-right: 3.75em;
+    color: currentColor;
+    text-decoration: none;
 }
 
-.header2 span:hover {
+.header2 *:hover {
     color: #6cace4b3;
     cursor: pointer;
 }
