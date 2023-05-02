@@ -1,4 +1,6 @@
 import { Component } from "react";
+
+import scrollableFooterStyles from "./styles/scrollablefooter.module.css";
 import SchoolLogo from "../assets/images/school-logo.png";
 import LocationIcon from "./icons/location";
 import TelephoneIcon from "./icons/telephone";
@@ -7,7 +9,6 @@ import TwitterIcon from "./icons/twitter";
 import InstagramIcon from "./icons/instagram";
 import YoutubeIcon from "./icons/youtube";
 import LinkedinIcon from "./icons/linkedin";
-import scrollableFooterStyles from "./styles/scrollablefooter.module.css";
 
 export default class ScrollableFooter extends Component {
 
@@ -18,9 +19,15 @@ export default class ScrollableFooter extends Component {
                     <img src={SchoolLogo} alt="School Logo" height="130em" className={scrollableFooterStyles.schoolLogo} />
                     <div className={scrollableFooterStyles.schoolName}> School Name </div>
                     <div className={scrollableFooterStyles.address1}> 3141 Chestnut Street </div>
-                    <div className={scrollableFooterStyles.viewMap}> <LocationIcon /> View on Map </div>
+                    <div className={scrollableFooterStyles.locatMap}>
+                        <span className={scrollableFooterStyles.location}> <LocationIcon /> </span>
+                        <span className={scrollableFooterStyles.viewMap}> View on Map </span>
+                    </div>
                     <div className={scrollableFooterStyles.address2}> Philadelphia, PA 19104 </div>
-                    <div className={scrollableFooterStyles.phoneNumber}> <TelephoneIcon /> 215.895.2000 </div>
+                    <div className={scrollableFooterStyles.teleNum}>
+                        <span> <TelephoneIcon /></span>
+                        <span> 215.895.2000 </span>
+                    </div>
                 </div>
                 <div className={scrollableFooterStyles.block2}>
                     <div className={scrollableFooterStyles.emergency}> Emergency </div>
@@ -30,12 +37,12 @@ export default class ScrollableFooter extends Component {
                 </div>
                 <div className={scrollableFooterStyles.block3}>
                     <div className={scrollableFooterStyles.followUs}>
-                        <div style={{ opacity: ".6" }}> FOLLOW US </div>
-                        <span> <FacebookIcon /> </span>
-                        <span> <TwitterIcon /></span>
-                        <span> <InstagramIcon /> </span>
-                        <span> <YoutubeIcon /> </span>
-                        <span> <LinkedinIcon /> </span>
+                        <div className={scrollableFooterStyles.followUsMsg}> FOLLOW US </div>
+                        <span className={scrollableFooterStyles.facebook}> <FacebookIcon /> </span>
+                        <span className={scrollableFooterStyles.twitter}> <TwitterIcon /></span>
+                        <span className={scrollableFooterStyles.instagram}> <InstagramIcon /> </span>
+                        <span className={scrollableFooterStyles.youtube}> <YoutubeIcon /> </span>
+                        <span className={scrollableFooterStyles.linkedin}> <LinkedinIcon /> </span>
                     </div>
                 </div>
                 <div className={scrollableFooterStyles.block4}>
@@ -45,7 +52,7 @@ export default class ScrollableFooter extends Component {
                 <div className={scrollableFooterStyles.block5}>
                     <span className={scrollableFooterStyles.motto}> Education For All Children </span>
                 </div>
-            </div>
+            </div >
         );
     }
 }

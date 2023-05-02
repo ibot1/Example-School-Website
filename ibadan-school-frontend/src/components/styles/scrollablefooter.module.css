@@ -1,6 +1,10 @@
 .footer {
     height: 27em;
+    margin-top: 4.3%;
     background-color: #005b80;
+    /* border-width: thick;
+    border-style: solid;
+    border-color: black; */
 }
 
 .footer div {
@@ -22,11 +26,11 @@
 }
 
 .block2 {
-    position: absolute;
+    position: relative;
     border-bottom-width: thin;
     border-bottom-style: solid;
-    top: 317%;
-    left: 33%;
+    top: -36.3%;
+    left: 4%;
     height: 5em;
     width: 38em;
 }
@@ -37,19 +41,19 @@
 }
 
 .block3 {
-    position: absolute;
-    top: 333%;
-    left: 33%;
+    position: relative;
+    top: -68%;
+    left: 35.8%;
     border-bottom-width: thin;
     border-bottom-style: solid;
-    height: 4em;
+    height: 5em;
     width: 38em;
 }
 
 .block4 {
-    position: absolute;
-    top: 350%;
-    left: 40%;
+    position: relative;
+    top: -43%;
+    left: 2%;
     font-size: 0.9em;
 }
 
@@ -62,26 +66,25 @@
 }
 
 .block5 {
-    position: absolute;
-    top: 317%;
-    left: 82%;
+    position: relative;
+    top: -64.5%;
+    left: 14%;
     font-size: 3em;
     width: 3em;
-    height: 3em;
+    height: 3.23em;
     border-left-width: thin;
     border-left-style: solid;
     padding-left: 0.7%;
 }
 
 .schoolLogo {
-    position: absolute;
-    top: 317%;
+    position: relative;
     left: 2%;
 }
 
 .schoolName {
-    position: absolute;
-    top: 337%;
+    position: relative;
+    top: 3%;
     left: 2%;
     font-size: 1.07em;
     font-weight: bold;
@@ -93,46 +96,61 @@
 }
 
 .address1 {
-    position: absolute;
-    top: 342%;
+    position: relative;
+    top: 7%;
     left: 2%;
     font-size: 0.9em;
 }
 
-.viewMap {
-    position: absolute;
-    top: 342%;
-    left: 19.1%;
-    font-size: 0.9em;
+.location {
+    position: relative;
+    top: 20%;
+    left: -2.8%;
+    height: 10em;
 }
 
-.viewMap:hover {
+
+.viewMap {
+    position: relative;
+    top: 2%;
+    left: -4%;
+}
+
+.locatMap {
+    position: relative;
+    font-size: 0.88em;
+    top: 7%;
+    height: 1em;
+    left: 20%;
+}
+
+.locatMap:hover {
     color: #ffc0cb;
     cursor: pointer;
 }
 
 .address2 {
-    position: absolute;
-    top: 345%;
-    left: 2%;
+    position: relative;
+    top: 15%;
+    left: -47.8%;
     font-size: 0.9em;
 }
 
-.phoneNumber {
-    position: absolute;
-    top: 345%;
-    left: 18%;
+.teleNum {
+    position: relative;
+    top: 8.4%;
+    left: 48.5%;
     font-size: 0.9em;
 }
 
-.phoneNumber:hover {
+.teleNum:hover {
     color: #ffc0cb;
     cursor: pointer;
 }
 
 .emergency {
-    position: absolute;
-    top: 24%;
+    position: relative;
+    top: 22%;
     left: -0.1%;
     font-size: 1.2em;
     border-width: 0.13em;
@@ -141,34 +159,36 @@
 }
 
 .contact {
-    position: absolute;
-    top: 26%;
-    left: 30%;
+    position: relative;
+    top: 23%;
+    left: 10%;
     font-size: 1.3em;
     padding: 1%;
 }
 
 .press {
-    position: absolute;
-    top: 26%;
-    left: 54%;
+    position: relative;
+    top: 23%;
+    left: 21%;
     font-size: 1.3em;
     padding: 1%;
 }
 
 .careers {
-    position: absolute;
-    top: 26%;
-    left: 75%;
+    position: relative;
+    top: 23%;
+    left: 32%;
     font-size: 1.3em;
     padding: 1%;
 }
 
 .followUs {
-    position: absolute;
+    position: relative;
     font-size: 1em;
-    top: 10%;
+    top: 27%;
     left: 1%;
+    height: 1.7em;
+    width: 36em;
 }
 
 .followUs span:hover {
@@ -176,9 +196,40 @@
     cursor: pointer;
 }
 
-.motto {
-    position: absolute;
-    margin-top: -7%;
+.followUsMsg {
+    position: relative;
+    opacity: .6;
+    top: -40%;
+}
+
+.facebook {
+    position: relative;
+    top: -6%;
+    left: 3%;
+}
+
+.twitter {
+    position: relative;
+    top: -20%;
+    left: 4%;
+}
+
+.instagram {
+    position: relative;
+    top: -24%;
+    left: 6.5%;
+}
+
+.youtube {
+    position: relative;
+    top: -4%;
+    left: 9%;
+}
+
+.linkedin {
+    position: relative;
+    top: -21%;
+    left: 11.5%;
 }
 
 .motto:hover {

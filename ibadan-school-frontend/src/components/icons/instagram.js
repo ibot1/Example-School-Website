@@ -4,11 +4,7 @@ export default class Instagram extends Component {
 
     render() {
         return (
-            <svg fill="none" viewBox="0 0 15 15" height="1.3em" width="1.3em" style={{
-                position: 'absolute',
-                top: '2%',
-                left: '280%'
-            }}>
+            <svg fill="none" viewBox="0 0 15 15" height="1.3em" width="1.3em">
                 <path fill="currentColor" d="M7.5 5a2.5 2.5 0 100 5 2.5 2.5 0 000-5z" />
                 <path
                     fill="currentColor"

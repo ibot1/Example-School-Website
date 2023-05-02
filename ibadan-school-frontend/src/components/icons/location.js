@@ -4,11 +4,7 @@ export default class Location extends Component {
 
     render() {
         return (
-            <svg viewBox="0 0 21 21" fill="currentColor" height="1.2em" width="1.2em" style={{
-                position: "absolute",
-                top: "-7%",
-                left: "-23%"
-            }}>
+            <svg viewBox="0 0 21 21" fill="currentColor" height="1.2em" width="1.2em">
                 <g
                     fill="none"
                     fillRule="evenodd"

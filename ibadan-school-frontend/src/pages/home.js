@@ -8,7 +8,7 @@ export default class Home extends Component {
     render() {
         return <div>
             <Header />
-            <div style={{ height: "137em" }}> School videos, images, news, events, apply, staffs </div>
+            <div> School videos, images, news, events, apply, staffs </div>
             <ScrollableFooter />
             <FixedFooter />
         </div >;
