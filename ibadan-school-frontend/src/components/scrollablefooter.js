@@ -16,8 +16,8 @@ export default class ScrollableFooter extends Component {
         return (
             <div className={scrollableFooterStyles.footer}>
                 <div className={scrollableFooterStyles.block1}>
-                    <img src={SchoolLogo} alt="School Logo" height="130em" className={scrollableFooterStyles.schoolLogo} />
-                    <div className={scrollableFooterStyles.schoolName}> School Name </div>
+                    <img src={SchoolLogo} alt="School Logo" className={scrollableFooterStyles.schoolLogo} />
+                    <div className={scrollableFooterStyles.schoolName}> IBADAN SCHOOL FOR THE DEAF </div>
                     <div className={scrollableFooterStyles.address1}> 3141 Chestnut Street </div>
                     <div className={scrollableFooterStyles.locatMap}>
                         <span className={scrollableFooterStyles.location}> <LocationIcon /> </span>
@@ -46,7 +46,7 @@ export default class ScrollableFooter extends Component {
                     </div>
                 </div>
                 <div className={scrollableFooterStyles.block4}>
-                    <span>Copyright © 2023 Company. All rights reserved. </span>
+                    <span>Copyright © 2023 Jaroy Ltd. All rights reserved. </span>
                     <a href="https://www.google.com" target="_blank" rel="noreferrer"> Privacy & Legal </a>
                 </div>
                 <div className={scrollableFooterStyles.block5}>

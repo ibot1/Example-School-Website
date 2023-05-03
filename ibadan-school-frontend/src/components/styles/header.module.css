@@ -78,3 +78,27 @@
     color: #6cace4b3;
     cursor: pointer;
 }
+
+.academicsOptions {
+    position: relative;
+    text-align: left;
+    top: 30%;
+    left: 0%;
+    width: 11.2%;
+}
+
+.admissionsOptions {
+    position: relative;
+    text-align: left;
+    top: 30%;
+    left: 34.2%;
+    width: 11.2%;
+}
+
+.aboutUs {
+    position: relative;
+    text-align: left;
+    top: 30%;
+    left: 71.3%;
+    width: 11.2%;
+}
