@@ -1,0 +1,13 @@
+.sideMenu {
+    position: relative;
+    height: 30em;
+    width: 20em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: thin solid #808080;
+}
+
+.hider {
+    position: relative;
+    left: 3%;
+}
