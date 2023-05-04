@@ -9,7 +9,9 @@ export default class Admissions extends Component {
         return (
             <div>
                 <Header />
-                Admissions Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Admissions Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

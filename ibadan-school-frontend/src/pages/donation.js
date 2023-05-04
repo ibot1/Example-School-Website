@@ -9,7 +9,9 @@ export default class Donation extends Component {
         return (
             <div>
                 <Header />
-                Donation Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Donation Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

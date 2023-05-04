@@ -9,7 +9,9 @@ export default class Search extends Component {
         return (
             <div>
                 <Header />
-                Search Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Search Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

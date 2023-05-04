@@ -9,7 +9,10 @@ export default class About extends Component {
         return (
             <div>
                 <Header />
-                About Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    About Page Contents
+                </div>
+
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

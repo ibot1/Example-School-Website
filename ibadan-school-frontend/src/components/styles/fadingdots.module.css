@@ -1,0 +1,16 @@
+.dots {
+    position: relative;
+    width: 3.6%;
+}
+
+.dots div {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+}
+
+.dots div:hover {
+    cursor: pointer;
+}

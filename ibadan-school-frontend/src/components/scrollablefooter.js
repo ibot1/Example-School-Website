@@ -18,15 +18,22 @@ export default class ScrollableFooter extends Component {
                 <div className={scrollableFooterStyles.block1}>
                     <img src={SchoolLogo} alt="School Logo" className={scrollableFooterStyles.schoolLogo} />
                     <div className={scrollableFooterStyles.schoolName}> IBADAN SCHOOL FOR THE DEAF </div>
-                    <div className={scrollableFooterStyles.address1}> 3141 Chestnut Street </div>
-                    <div className={scrollableFooterStyles.locatMap}>
-                        <span className={scrollableFooterStyles.location}> <LocationIcon /> </span>
-                        <span className={scrollableFooterStyles.viewMap}> View on Map </span>
-                    </div>
-                    <div className={scrollableFooterStyles.address2}> Philadelphia, PA 19104 </div>
-                    <div className={scrollableFooterStyles.teleNum}>
+                    <div className={scrollableFooterStyles.address1}> Polytechnic Road, Sango - Eleyele Expressway  </div>
+                    <a href="https://goo.gl/maps/No69zxxq2GeMmFyQ8" target="_blank" rel="noreferrer">
+                        <div className={scrollableFooterStyles.locatMap}>
+                            <span className={scrollableFooterStyles.location}> <LocationIcon /> </span>
+                            <span className={scrollableFooterStyles.viewMap}> View on Map </span>
+                        </div>
+                    </a>
+
+                    <div className={scrollableFooterStyles.address2}> Ijokodo, Ibadan, Oyo State, Nigeria, 200283 </div>
+                    <div className={scrollableFooterStyles.teleNum1}>
                         <span> <TelephoneIcon /></span>
-                        <span> 215.895.2000 </span>
+                        <span> +234-806-006-0642 </span>
+                    </div>
+                    <div className={scrollableFooterStyles.teleNum2}>
+                        <span> <TelephoneIcon /></span>
+                        <span> +234-803-585-1464 </span>
                     </div>
                 </div>
                 <div className={scrollableFooterStyles.block2}>
@@ -46,8 +53,8 @@ export default class ScrollableFooter extends Component {
                     </div>
                 </div>
                 <div className={scrollableFooterStyles.block4}>
-                    <span>Copyright © 2023 Jaroy Ltd. All rights reserved. </span>
-                    <a href="https://www.google.com" target="_blank" rel="noreferrer"> Privacy & Legal </a>
+                    <span>Copyright © 2023 Jaroy. All rights reserved. </span>
+                    <a href="https://www.jaroymtech.ng" target="_blank" rel="noreferrer"> Privacy & Legal </a>
                 </div>
                 <div className={scrollableFooterStyles.block5}>
                     <span className={scrollableFooterStyles.motto}> Education For All Children </span>

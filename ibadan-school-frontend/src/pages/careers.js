@@ -9,7 +9,9 @@ export default class Careers extends Component {
         return (
             <div>
                 <Header />
-                Careers Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Careers Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

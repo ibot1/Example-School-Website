@@ -9,7 +9,9 @@ export default class TuitionFinAid extends Component {
         return (
             <div>
                 <Header />
-                Tuition And Financial Aid Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Tuition And Financial Aid Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

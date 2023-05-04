@@ -15,7 +15,7 @@
     border-right-style: solid;
     margin-top: 2%;
     height: 17.4em;
-    width: 30em;
+    width: 35em;
 }
 
 .block1 img:hover {
@@ -26,8 +26,8 @@
     position: relative;
     border-bottom-width: thin;
     border-bottom-style: solid;
-    top: -36.3%;
-    left: 4%;
+    top: -46.3%;
+    left: 2%;
     height: 5em;
     width: 38em;
 }
@@ -39,8 +39,8 @@
 
 .block3 {
     position: relative;
-    top: -68%;
-    left: 35.8%;
+    top: -71%;
+    left: 38.8%;
     border-bottom-width: thin;
     border-bottom-style: solid;
     height: 5em;
@@ -65,7 +65,7 @@
 .block5 {
     position: relative;
     top: -64.5%;
-    left: 14%;
+    left: 17%;
     font-size: 3em;
     width: 3em;
     height: 3.23em;
@@ -81,12 +81,12 @@
 
 .schoolName {
     position: relative;
-    top: 3%;
+    top: 5.4%;
     left: 2%;
     font-size: 1.07em;
     font-weight: bold;
     color: #daa520;
-    width: 20.4em;
+    width: 29em;
     padding-bottom: 0.3%;
     border-bottom-width: thin;
     border-bottom-style: solid;
@@ -110,15 +110,14 @@
 .viewMap {
     position: relative;
     top: 2%;
-    left: -4%;
 }
 
 .locatMap {
     position: relative;
     font-size: 0.88em;
-    top: 7%;
+    top: 7.2%;
     height: 1em;
-    left: 20%;
+    left: 10%;
 }
 
 .locatMap:hover {
@@ -128,19 +127,31 @@
 
 .address2 {
     position: relative;
-    top: 15%;
-    left: -47.8%;
+    top: 10%;
+    left: 2%;
     font-size: 0.9em;
 }
 
-.teleNum {
+.teleNum1 {
     position: relative;
-    top: 8.4%;
-    left: 48.5%;
+    top: 10.2%;
+    left: 14.6%;
     font-size: 0.9em;
 }
 
-.teleNum:hover {
+.teleNum1:hover {
+    color: #ffc0cb;
+    cursor: pointer;
+}
+
+.teleNum2 {
+    position: relative;
+    top: 12.4%;
+    left: 65%;
+    font-size: 0.9em;
+}
+
+.teleNum2:hover {
     color: #ffc0cb;
     cursor: pointer;
 }

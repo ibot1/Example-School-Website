@@ -9,7 +9,9 @@ export default class News extends Component {
         return (
             <div>
                 <Header />
-                News Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    News Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

@@ -9,7 +9,9 @@ export default class Events extends Component {
         return (
             <div>
                 <Header />
-                Events Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Events Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

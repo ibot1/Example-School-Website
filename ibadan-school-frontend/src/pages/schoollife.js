@@ -9,7 +9,9 @@ export default class SchoolLife extends Component {
         return (
             <div>
                 <Header />
-                School-life Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    School-life Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>

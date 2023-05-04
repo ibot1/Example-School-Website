@@ -9,7 +9,9 @@ export default class Academics extends Component {
         return (
             <div>
                 <Header />
-                Academics Page Contents
+                <div style={{ minHeight: "20em" }}>
+                    Academics Page Contents
+                </div>
                 <ScrollableFooter />
                 <FixedFooter />
             </div>
