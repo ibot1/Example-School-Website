@@ -1,0 +1,56 @@
+{
+    "academics": [
+        {
+            "title": "Pre-School",
+            "children": null
+        },
+        {
+            "title": "Primary School",
+            "children": null
+        },
+        {
+            "title": "Secondary School",
+            "children": null
+        },
+        {
+            "title": "Vocational Training Center",
+            "children": null
+        }
+    ],
+    "admissions": [
+        {
+            "title": "Pre-School",
+            "children": null
+        },
+        {
+            "title": "Primary School",
+            "children": null
+        },
+        {
+            "title": "Secondary School",
+            "children": null
+        },
+        {
+            "title": "Vocational Training Center",
+            "children": null
+        }
+    ],
+    "aboutUs": [
+        {
+            "title": "Mission & Vision",
+            "children": null
+        },
+        {
+            "title": "Strategic Plan",
+            "children": null
+        },
+        {
+            "title": "Management Team",
+            "children": null
+        },
+        {
+            "title": "Core Values",
+            "children": null
+        }
+    ]
+}

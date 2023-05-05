@@ -5,23 +5,25 @@ import DocumentIcon from "./icons/document";
 import SchdeduleIcon from "./icons/schedule";
 import GiftIcon from "./icons/gift";
 import fixedFooterStyles from "./styles/fixedfooter.module.css";
+import { NavLink } from "react-router-dom";
 
 
 export default class FixedFooter extends Component {
+
     render() {
         return <div className={fixedFooterStyles.footer}>
-            <div className={fixedFooterStyles.connectbox}> <ConnectIcon /> Connect </div>
+            <NavLink to="/contact"> <div className={fixedFooterStyles.connectbox}> <ConnectIcon /> Connect </div> </NavLink>
             <div className={fixedFooterStyles.inforbox}>
-                <div> <span> Students </span> </div>
-                <div> <span> Families </span> </div>
-                <div> <span> Alumni </span> </div>
-                <span className={fixedFooterStyles.inforboxlast}> Faculty & Professional Staff </span>
+                <div> <NavLink to="/student"> Students </NavLink> </div>
+                <div> <NavLink to="/family"> Families </NavLink> </div>
+                <div> <NavLink to="/alumni"> Alumni </NavLink> </div>
+                <NavLink to="/staff" className={fixedFooterStyles.inforboxlast}> Faculty & Professional Staff </NavLink>
             </div>
             <div className={fixedFooterStyles.otherbox}>
-                <div> <InfoIcon /> Request Info  </div>
-                <div> <DocumentIcon /> Apply  </div>
-                <div> <SchdeduleIcon /> Visit </div>
-                <div> <GiftIcon /> Donation </div>
+                <NavLink to="/info"> <div> <InfoIcon /> Request Info  </div> </NavLink>
+                <NavLink to="/apply"> <div> <DocumentIcon /> Apply  </div></NavLink>
+                <NavLink to="/visit"> <div> <SchdeduleIcon /> Visit </div></NavLink>
+                <NavLink to="/donation"> <div> <GiftIcon /> Donation </div> </NavLink>
             </div>
         </div>;
     }

@@ -45,7 +45,12 @@
     margin-left: 6%;
 }
 
-.inforbox span:hover {
+.inforbox a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.inforbox a:hover {
     cursor: pointer;
     color: #ffff00;
 }

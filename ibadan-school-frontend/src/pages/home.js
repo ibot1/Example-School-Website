@@ -1,42 +1,26 @@
 import { Component } from "react";
 import Header from "../components/header";
 import FixedFooter from "../components/fixedfooter";
-import FadingDots from "../components/fadingdots";
-import SchoolHomeImg1 from "../assets/images/school-home-img-1.jpg";
-import SchoolHomeImg2 from "../assets/images/school-home-img-2.jpg";
-import SchoolHomeImg3 from "../assets/images/school-home-img-3.jpg";
+import ImageSlideShow from "../components/imageslideshow";
 import ScrollableFooter from "../components/scrollablefooter";
 
 export default class Home extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            slideshow: {
-                dot1: SchoolHomeImg1,
-                dot2: SchoolHomeImg2,
-                dot3: SchoolHomeImg3,
-                currentView: SchoolHomeImg1
-            }
-        }
-    }
-
-    onClickSlideShow = (id) => {
-        this.setState({
-            slideshow: {
-                ...this.state.slideshow,
-                currentView: this.state.slideshow[id]
-            }
-        })
-    }
-
     render() {
         return <div>
             <Header />
-            <img src={this.state.slideshow.currentView} alt="School Home Pictures" width="100%" height="750em" />
-            <FadingDots onClick={this.onClickSlideShow} />
+            <ImageSlideShow />
 
-            <div style={{ minHeight: "20em" }} />
+            <div style={{
+                position: "relative",
+                border: "thin solid #808080", textAlign: "center", fontSize: "2em",
+                width: "fit-content", left: "30%", height: "5em", borderRadius: "0.5em",
+                padding: "2%",
+                boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
+            }}>
+                <span style={{ borderBottom: "thin solid #000000" }}> A Center Of Learning For The Hearing-Challenged </span>
+            </div>
+
             <ScrollableFooter />
             <FixedFooter />
         </div >;

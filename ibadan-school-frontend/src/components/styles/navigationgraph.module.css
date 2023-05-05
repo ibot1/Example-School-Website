@@ -5,6 +5,8 @@
     overflow-x: hidden;
     overflow-y: scroll;
     border: thin solid #808080;
+    padding-left: 0.3%;
+    padding-top: 0.3%;
 }
 
 .hider {

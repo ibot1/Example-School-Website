@@ -9,6 +9,7 @@ import TwitterIcon from "./icons/twitter";
 import InstagramIcon from "./icons/instagram";
 import YoutubeIcon from "./icons/youtube";
 import LinkedinIcon from "./icons/linkedin";
+import { NavLink } from "react-router-dom";
 
 export default class ScrollableFooter extends Component {
 
@@ -16,7 +17,7 @@ export default class ScrollableFooter extends Component {
         return (
             <div className={scrollableFooterStyles.footer}>
                 <div className={scrollableFooterStyles.block1}>
-                    <img src={SchoolLogo} alt="School Logo" className={scrollableFooterStyles.schoolLogo} />
+                    <NavLink to="/home"> <img src={SchoolLogo} alt="School Logo" className={scrollableFooterStyles.schoolLogo} /> </NavLink>
                     <div className={scrollableFooterStyles.schoolName}> IBADAN SCHOOL FOR THE DEAF </div>
                     <div className={scrollableFooterStyles.address1}> Polytechnic Road, Sango - Eleyele Expressway  </div>
                     <a href="https://goo.gl/maps/No69zxxq2GeMmFyQ8" target="_blank" rel="noreferrer">
@@ -37,10 +38,10 @@ export default class ScrollableFooter extends Component {
                     </div>
                 </div>
                 <div className={scrollableFooterStyles.block2}>
-                    <div className={scrollableFooterStyles.emergency}> Emergency </div>
-                    <div className={scrollableFooterStyles.contact}> Contact </div>
-                    <div className={scrollableFooterStyles.press}> Press </div>
-                    <div className={scrollableFooterStyles.careers}> Careers </div>
+                    <NavLink to="/emergency" className={scrollableFooterStyles.emergency}> Emergency </NavLink>
+                    <NavLink to="/contact" className={scrollableFooterStyles.contact}> Contact </NavLink>
+                    <NavLink to="/press" className={scrollableFooterStyles.press}> Press </NavLink>
+                    <NavLink to="/careers" className={scrollableFooterStyles.careers}> Careers </NavLink>
                 </div>
                 <div className={scrollableFooterStyles.block3}>
                     <div className={scrollableFooterStyles.followUs}>
@@ -57,7 +58,7 @@ export default class ScrollableFooter extends Component {
                     <a href="https://www.jaroymtech.ng" target="_blank" rel="noreferrer"> Privacy & Legal </a>
                 </div>
                 <div className={scrollableFooterStyles.block5}>
-                    <span className={scrollableFooterStyles.motto}> Education For All Children </span>
+                    <NavLink to="/about" className={scrollableFooterStyles.motto}> Education For All Children </NavLink>
                 </div>
             </div >
         );

@@ -1,5 +1,6 @@
 .footer {
-    height: 27em;
+    position: relative;
+    height: 28em;
     margin-top: 5%;
     background-color: #005b80;
 }
@@ -32,7 +33,12 @@
     width: 38em;
 }
 
-.block2 div:hover {
+.block2 a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.block2 a:hover {
     color: #ffc0cb;
     cursor: pointer;
 }
@@ -238,6 +244,11 @@
     position: relative;
     top: -21%;
     left: 11.5%;
+}
+
+.motto {
+    color: currentColor;
+    text-decoration: none;
 }
 
 .motto:hover {
