@@ -2,6 +2,7 @@ import { Component } from "react";
 import Header from "../components/header";
 import ScrollableFooter from "../components/scrollablefooter";
 import NavigationGraph from "../components/navigationgraph";
+import contentStyles from "./styles/pagecontent.module.css";
 import FixedFooter from "../components/fixedfooter";
 
 const sideMenu = [
@@ -37,16 +38,20 @@ const sideMenu = [
 export default class Careers extends Component {
 
     render() {
+
         return (
             <div>
                 <Header />
-                <div style={{ minHeight: "20em" }}>
-                    Careers Page Contents
+                <div className={contentStyles.contentContainer}>
+                    <div className={contentStyles.titleContainer}>
+                        <span className={contentStyles.title}> Careers </span>
+                    </div>
                     <NavigationGraph sideMenu={sideMenu} />
+                    <div className={contentStyles.mainContent} />
                 </div>
                 <ScrollableFooter />
                 <FixedFooter />
-            </div>
+            </div >
         );
     }
 }

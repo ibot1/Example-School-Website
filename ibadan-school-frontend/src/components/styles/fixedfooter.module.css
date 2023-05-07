@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
 .footer div {
     display: inline-block;
     font-size: 1.1em;
@@ -45,11 +50,6 @@
     margin-left: 6%;
 }
 
-.inforbox a {
-    color: currentColor;
-    text-decoration: none;
-}
-
 .inforbox a:hover {
     cursor: pointer;
     color: #ffff00;
@@ -69,9 +69,6 @@
     padding-right: 3.1%;
     padding-top: 2%;
     padding-bottom: 2%;
-    border: thin;
-    border-style: solid;
-    border-color: #a32aa5;
 }
 
 .otherbox div:hover {

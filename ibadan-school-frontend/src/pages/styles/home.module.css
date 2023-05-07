@@ -50,7 +50,7 @@ a {
     border: thin solid #000000;
     width: 18em;
     height: 13em;
-    background-color: #b80bee29;
+    background-color: #4e9aaf;
     display: inline-block;
     position: relative;
     margin-right: 3%;
@@ -58,12 +58,12 @@ a {
 
 .newsEventCard:hover {
     cursor: pointer;
-    background-color: #FFA500;
+    background-color: #050f55;
 }
 
 .newsEventDateTime {
     font-family: sans-serif;
-    color: #808080;
+    color: #ffffff;
     position: relative;
     width: 17.6em;
     padding-top: 1.5em;
@@ -81,4 +81,5 @@ a {
     font-weight: 550;
     width: 13em;
     height: 3.4em;
+    color: #ffffff;
 }

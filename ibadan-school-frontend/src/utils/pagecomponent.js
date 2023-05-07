@@ -8,15 +8,12 @@ export default class PageComponent extends Component {
     }
 
     componentDidMount() {
-        const pattern = this.props.pattern.split("/");
-        const path = window.location.pathname.split("/");
-        const len = Math.min(pattern.length, path.length);
-        const params = {};
+        const pattern = this.props.pattern;
+        const path = window.location.pathname;
+        const result = path.match(pattern);
 
-        for (let i = 0; i < len; ++i) {
-            params[pattern[i]] = path[i];
+        if (result && result.groups) {
+            this.setState({ params: result.groups });
         }
-
-        this.setState({ params: params });
     }
 }

@@ -49,12 +49,9 @@ export default class NavigationGraph extends Component {
 
     render() {
         return (
-            <div>
-                <div className={navigationGraphStyles.sideMenu}>
-                    {this.state.sideMenu}
-                </div>
+            <div className={navigationGraphStyles.sideMenu}>
+                {this.state.sideMenu}
             </div>
-
         )
     }
 }

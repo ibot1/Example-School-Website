@@ -1,0 +1,36 @@
+.contentContainer {
+    position: relative;
+    min-height: 20em;
+    left: 0.3em;
+    top: 1em;
+    height: 38.7em;
+    width: 99%;
+}
+
+.titleContainer {
+    position: relative;
+    height: 1.5em;
+    border: thin solid #808080;
+    max-width: 10em;
+    text-align: center;
+    border-radius: 0.5em 0.5em 0em 0em;
+}
+
+.title {
+    position: relative;
+    top: 0.2em;
+}
+
+.mainContent {
+    position: relative;
+    display: inline-block;
+    width: 3em;
+    border: thin solid #000000;
+    height: 37em;
+    margin-right: 1%;
+    margin-left: 22%;
+    margin-top: -32.3%;
+    overflow: hidden;
+    width: 76%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

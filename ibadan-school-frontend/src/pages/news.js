@@ -2,21 +2,26 @@ import { Component } from "react";
 import Header from "../components/header";
 import ScrollableFooter from "../components/scrollablefooter";
 import NavigationGraph from "../components/navigationgraph";
+import contentStyles from "./styles/pagecontent.module.css";
 import FixedFooter from "../components/fixedfooter";
 
 export default class News extends Component {
 
     render() {
+
         return (
             <div>
                 <Header />
-                <div style={{ minHeight: "20em" }}>
-                    News Page Contents
+                <div className={contentStyles.contentContainer}>
+                    <div className={contentStyles.titleContainer}>
+                        <span className={contentStyles.title}> News </span>
+                    </div>
                     <NavigationGraph />
+                    <div className={contentStyles.mainContent} />
                 </div>
                 <ScrollableFooter />
                 <FixedFooter />
-            </div>
+            </div >
         );
     }
 }

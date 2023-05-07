@@ -3,21 +3,26 @@ import Header from "../components/header";
 import sideMenuApi from "../utils/sidemenuapi.json";
 import ScrollableFooter from "../components/scrollablefooter";
 import NavigationGraph from "../components/navigationgraph";
+import contentStyles from "./styles/pagecontent.module.css";
 import FixedFooter from "../components/fixedfooter";
 
 export default class Admissions extends Component {
 
     render() {
+
         return (
             <div>
                 <Header />
-                <div style={{ minHeight: "20em" }}>
-                    Admissions Page Contents
+                <div className={contentStyles.contentContainer}>
+                    <div className={contentStyles.titleContainer}>
+                        <span className={contentStyles.title}> Admissions </span>
+                    </div>
                     <NavigationGraph sideMenu={sideMenuApi.admissions} />
+                    <div className={contentStyles.mainContent} />
                 </div>
                 <ScrollableFooter />
                 <FixedFooter />
-            </div>
+            </div >
         );
     }
 }
