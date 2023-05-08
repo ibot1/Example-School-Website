@@ -12,3 +12,9 @@
     position: relative;
     left: 3%;
 }
+
+.vertLines {
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: black;
+}

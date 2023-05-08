@@ -29,7 +29,7 @@ export default class NavigationGraph extends Component {
         const symbol = isLeaf ? '*' : '+';
 
         return (
-            <div id={id} key={id} onClick={this.onClick}>
+            <div id={id} key={id} onClick={this.onClick} className={navigationGraphStyles.vertLines}>
                 {symbol}{node.title}
                 {<div hidden={true} className={navigationGraphStyles.hider}>
                     {children.map(child => this.createNode(child, ctr))}
