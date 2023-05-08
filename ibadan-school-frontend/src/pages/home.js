@@ -1,4 +1,4 @@
-import { Component } from "react";
+import PageComponent from "../utils/pagecomponent";
 import Header from "../components/header";
 import FixedFooter from "../components/fixedfooter";
 import ImageSlideShow from "../components/imageslideshow";
@@ -6,7 +6,7 @@ import ScrollableFooter from "../components/scrollablefooter";
 import homeStyles from "./styles/home.module.css";
 import { NavLink } from "react-router-dom";
 
-export default class Home extends Component {
+export default class Home extends PageComponent {
 
     constructor() {
         super();
@@ -17,6 +17,7 @@ export default class Home extends Component {
     }
 
     componentDidMount() {
+        super.componentDidMount();
         this.setState({
             events: this.eventsCardApi(),
             news: this.newsCardApi()

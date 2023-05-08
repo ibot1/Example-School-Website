@@ -1,4 +1,4 @@
-import { Component } from "react";
+import PageComponent from "../utils/pagecomponent";
 import Header from "../components/header";
 import sideMenuApi from "../utils/sidemenuapi.json";
 import ScrollableFooter from "../components/scrollablefooter";
@@ -6,7 +6,7 @@ import NavigationGraph from "../components/navigationgraph";
 import contentStyles from "./styles/pagecontent.module.css";
 import FixedFooter from "../components/fixedfooter";
 
-export default class Admissions extends Component {
+export default class Admissions extends PageComponent {
 
     render() {
 

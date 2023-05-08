@@ -1,7 +1,7 @@
-import { Component } from "react";
+import PageComponent from "../utils/pagecomponent";
 import notFoundStyles from "../components/styles/notfound.module.css";
 
-export default class NotFound extends Component {
+export default class NotFound extends PageComponent {
 
     render() {
         return (

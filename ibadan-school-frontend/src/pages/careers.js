@@ -1,4 +1,4 @@
-import { Component } from "react";
+import PageComponent from "../utils/pagecomponent";
 import Header from "../components/header";
 import ScrollableFooter from "../components/scrollablefooter";
 import NavigationGraph from "../components/navigationgraph";
@@ -94,7 +94,7 @@ const sideMenu = [
     }
 ];
 
-export default class Careers extends Component {
+export default class Careers extends PageComponent {
 
     render() {
 

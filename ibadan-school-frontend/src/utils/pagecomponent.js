@@ -4,16 +4,13 @@ export default class PageComponent extends Component {
 
     constructor() {
         super();
-        this.state = { params: {} };
+        window.scrollTo(0, 0);
     }
 
     componentDidMount() {
         const pattern = this.props.pattern;
         const path = window.location.pathname;
         const result = path.match(pattern);
-
-        if (result && result.groups) {
-            this.setState({ params: result.groups });
-        }
+        this.params = result && result.groups ? { params: result.groups } : {};
     }
 }

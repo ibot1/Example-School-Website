@@ -1,11 +1,11 @@
-import { Component } from "react";
+import PageComponent from "../utils/pagecomponent";
 import Header from "../components/header";
 import ScrollableFooter from "../components/scrollablefooter";
 import NavigationGraph from "../components/navigationgraph";
 import FixedFooter from "../components/fixedfooter";
 import contentStyles from "./styles/pagecontent.module.css";
 
-export default class Search extends Component {
+export default class Search extends PageComponent {
 
     render() {
         return (
