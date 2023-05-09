@@ -62,6 +62,7 @@ export default class Home extends PageComponent {
             <ImageSlideShow />
             <div className={homeStyles.storyCard}>
                 <span className={homeStyles.storyMessage}> A Center Of Learning For The Hearing-Challenged </span>
+                <div style={{ fontSize: "2em" }}> ... </div>
             </div>
             <div className={homeStyles.newsEventSection}>
                 <div className={homeStyles.newsEventTitle}> Events </div>

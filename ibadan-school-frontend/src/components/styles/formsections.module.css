@@ -1,0 +1,26 @@
+.titleContainer {
+    position: relative;
+    display: inline-block;
+    border-radius: 1em;
+    /* background-color: #008000; */
+    background-color: #0080006b;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+.titleLink {
+    position: relative;
+    display: inline-block;
+    border: thin solid #00800021;
+    top: -0.3em;
+    width: 3em;
+}
+
+.section {
+    position: relative;
+    display: inline-block;
+    top: 1em;
+}
