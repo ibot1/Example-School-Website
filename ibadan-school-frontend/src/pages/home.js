@@ -61,10 +61,10 @@ export default class Home extends PageComponent {
             <Header />
             <ImageSlideShow />
             <div className={homeStyles.storyCard}>
-                <span className={homeStyles.storyMessage}> A Center Of Learning For The Hearing-Challenged </span>
-                <div style={{ fontSize: "2em" }}> ... </div>
+                <span className={homeStyles.storyHeading}> A Center Of Learning For The Hearing-Challenged </span>
+                {/* <p className={homeStyles.storyParagraph}>The seed was sown in faith with only four pupils in a garage donated by late Mrs. Onabamiro at SW9/950 Ososami Road, Ibadan. Inspite of initial difficulties, God has been faithful; He continued to uphold me in His service</p> */}
             </div>
-            <div className={homeStyles.newsEventSection}>
+            {/* <div className={homeStyles.newsEventSection}>
                 <div className={homeStyles.newsEventTitle}> Events </div>
                 {this.state.events}
                 <NavLink to="/events"> <div className={homeStyles.newsEventButton}> VIEW ALL EVENTS </div> </NavLink>
@@ -74,7 +74,7 @@ export default class Home extends PageComponent {
                 {this.state.news}
                 <NavLink to="/news"><div className={homeStyles.newsEventButton}> VIEW ALL NEWS </div></NavLink>
 
-            </div>
+            </div> */}
             <ScrollableFooter />
             <FixedFooter />
         </div >;
