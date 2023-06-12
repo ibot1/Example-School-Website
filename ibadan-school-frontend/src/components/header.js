@@ -87,7 +87,7 @@ export default class Header extends Component {
     render() {
         return <div>
             <div className={headerStyles.header1}>
-                <NavLink to="/home"> <img src={SchoolLogo} alt="School Logo" height="60.375em" /></NavLink>
+                <NavLink to="/home"> <img src={SchoolLogo} alt="School Logo" height="8%" /></NavLink>
                 <div> <NavLink to="/news"> News </NavLink> </div>
                 <div> <NavLink to="/events"> Events </NavLink> </div>
                 <div> <NavLink to="/donation"> Donation </NavLink> </div>
